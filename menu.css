@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #07152B;
+  
+}
+
+.menutop ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menutop li a,img{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+.logo{
+  border: 1px solid white;
+}
+
+
+
+  
+
+.menutop  li img{
+  
+  width: 100px;
+}
+main{
+  background-color: #07152B;
+  
+}
+.contenedor2{
+  display: flex;
+  height: 700px;
+  background-image: url(imagenes/Fondoavatar.jpeg);
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+ 
+}
+
+
+.boton1 span{
+  display: block;
+  
+  padding: 10px;
+  font-size: 107px;
+  color: white;
+ 
+}
+.boton1{
+  margin-left: 70px;
+}
+button{
+  color: white;
+  background-color: blue;
+  
+  
+ }
+.peliculastop {
+  background-color: #07152B;
+}
+
+h1 {
+  color: white;
+  text-align: center;  }
+
+.ficha {
+  border: 3px solid white; /* Corregido: Utiliza 'solid' en lugar de comas */
+  padding: 20px;
+  margin: 0px 0px 0px 0px; /* Modificado para un margen uniforme entre las fichas */
+  border-radius: 5px;
+  width: calc(25% - 40px); /* Modificado para asegurar que cada ficha tenga un ancho adecuado */
+  box-sizing: border-box; /* Añadido para incluir el padding y border en el ancho total */
+}
+
+.fichas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Añadido para permitir que las fichas se envuelvan */
+  margin-bottom: 20px;
+}
+
+.fichaimg img {
+  width: 210px;
+  height: 400px;  }
+.ficha h2 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.iconoazul{
+  width: 40px;
+}
+.salaspremiun{
+  background-image: url(imagenes/fondosalas.jpg);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.salaspremiun p,h3{
+  color: white;
+  margin-top: 10px;
+}
+.salaspremiun span{
+  color: deepskyblue;
+  
+}
+.salaspremiun p,h3{
+  margin-left: 100px;
+}
+.salaspremiun span{
+  margin-left: 100px;
+}
+.ofertas{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    
+    
+}
+.promos{
+  display: flex;
+  width: 300px;
+  height: 500px;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 7px 0px lightgrey;
+  border: 2px solid white;
+  background-color: white;
+  margin-bottom: 50px;
+  box-sizing: border-box; /* Añadido para incluir el padding y border en el ancho total */
+}
+
+.promos h4,p{
+  margin-left: 10px;
+}
+
+.promos span{
+  color:deepskyblue;
+  margin-top: 80px;
+  margin-left: 10px;
+  
+}
+.imagen img{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  box-sizing: border-box; 
+}
+footer{
+  width: 100%;
+  background-color: #091d3d;
+  
+}
+.contenedor3{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contenedor3 ul{
+  list-style: none;
+  margin-top: 20px;
+}
+.col{
+  
+  margin-top: 10px;
+  width: 280px;
+  height: 400px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  
+}
+.col li a{
+  color: white;
+  text-decoration: none;
+}
+.col li{
+  margin-bottom: 8px;
+}
